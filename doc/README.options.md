@@ -369,7 +369,8 @@ NB: All in-loop quantisation is independent (and happens after) any
 position scaling due to `positionQuantizationScale`.
 
 ### `--positionQuantizationScale=FLOAT-VALUE`
-(Deprecated) A scale factor applied to position quantization (range: 0.0 to 1.0) with 1.0 being no quantization. This option is deprecated and may be removed in future versions. 
+(Deprecated)
+A scale factor applied to position quantization (range: 0.0 to 1.0) with 1.0 being no quantization. This option is deprecated and may be removed in future versions. 
 
 ### `--positionQuantisationMethod=0|1|2`
 Selects the method used to determine the QP value for each quantised

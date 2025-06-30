@@ -720,8 +720,9 @@ ParseParameters(int argc, char* argv[], Parameters& params)
 
   // Alias for compatibility with old name.
   ("positionQuantizationScale", params.encoder.seqGeomScale, 1.,
-   "(Deprecated)"
-    "A scale factor applied to position quantization (range: 0.0 to 1.0) with 1.0 being no quantization.")
+   "(Deprecated) "
+    "A scale factor applied to position quantization (range: 0.0 to 1.0). "
+    "Here lower = more quantized, with 1.0 being no quantization.")
 
   ("externalScale",
     params.encoder.extGeomScale, 1.,

@@ -369,7 +369,6 @@ NB: All in-loop quantisation is independent (and happens after) any
 position scaling due to `positionQuantizationScale`.
 
 ### `--positionQuantizationScale=0|1`
-
 (Deprecated) A scale factor applied to position quantization (range: 0.0 to 1.0) with 1.0 being no quantization. This option is deprecated and may be removed in future versions. 
 
 ### `--positionQuantisationMethod=0|1|2`
